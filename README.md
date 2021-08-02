@@ -21,3 +21,5 @@ Pequeno sistema usando uma API externa, para obtenção de informações dos mai
 + JAVASCRIPT
 + BULMA
  ------------------------------------------------------------------------------------------------------------------------------------------------
+ 
+ ![simplescreenrecorder-2021-07-03_12 07 41](https://user-images.githubusercontent.com/74799613/127868776-3bde0e68-14db-444f-a409-2c4bf6ab5162.gif)
