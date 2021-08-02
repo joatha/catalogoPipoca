@@ -1,6 +1,6 @@
 <h1>Catálogo Pipoca</h1>
 
-> Status: Finished ✅
+> Status: Development
 
 Small system using an external API to obtain information from the most varied movies.
 
