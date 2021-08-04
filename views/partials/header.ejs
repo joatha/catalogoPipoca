@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>   
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bulma@0.9.3/css/bulma-rtl.min.css">
+    <link rel="stylesheet" href="/css/styles.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cine Pipoca</title>
+   
+</head>
+<body>
+    <div> 
+        <%- include('menu.ejs')%>
+    </div>
+    <section class="hero  has-text-centered">
+        <div class="hero-body">
+            <img src="/img/Sem título.jpg" alt="" srcset=""/>
+          <p class="title">
+            CATÁLOGO PIPOCA            
+          </p>    
+        </div>      
+    </section>
+
+    <div class="containerTituloFilme subtitle">
+        Digite o nome do filme abaixo
+    </div>
+
+    <div class="containerPesquisa">
+        <input class="input is-primary is-medium" type="text" id="textoFilme" onkeyup="busca()" placeholder="Pesquisar">
+    </div>
+
+    <hr>
+
+    <div class="card">
+        <div class="card-image">
+            <figure class="image">
+                <h1 id="imagemPoster" class=" image is-10x10"></h1>
+            </figure>  
+            <div class="containerDescricao"> 
+                <h1 id="respostaPesquisa"></h1>
+            </div>      
+    </div>
+
+<script src="/js/api.js"></script>
+
+<div> 
+    <%- include('footer.ejs')%>
+</div>
+
+</body>
